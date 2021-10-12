@@ -108,6 +108,7 @@ destroy the blue balloon when hit
 by the arrows */
 
   if (arrowGroup.isTouching(blueB)) {
+    
   blueB.destroyEach();
    score=score+2;
  }
